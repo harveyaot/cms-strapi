@@ -5,4 +5,6 @@ module.exports = ({ env }) => ({
   apiToken: {
     salt: env('API_TOKEN_SALT'),
   },
+  //url: "https://ashy-desert-0929ade1e.2.azurestaticapps.net",
+  //serveAdminPanel: false
 });
