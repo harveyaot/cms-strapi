@@ -5,7 +5,7 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
+    "start": "NODE_ENV=production node server.js",
     "build": "strapi build",
     "strapi": "strapi"
   },
@@ -17,7 +17,7 @@
     "better-sqlite3": "7.4.6"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Wei He"
   },
   "strapi": {
     "uuid": "3842e877-a9b5-46ae-9314-ade8118fb362"
